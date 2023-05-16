@@ -5,6 +5,16 @@ th, td {
   li{
     margin-bottom: 5px;
   }
-  .skills td{
+  .skills{
     font-weight: 600;
+    display: flex;
+  }
+
+  
+
+  @media screen and (max-width: 700px) {
+    .skills{
+      display: flex;
+      flex-direction: column;
+    }
   }
